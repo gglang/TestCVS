@@ -13,5 +13,7 @@ public class PooStain : MonoBehaviour {
 	void Update () {
 		//oops HACK
 		this.transform.position = this.transform.position + new Vector3(0.001f, 0f, 0f);
+		//derpderk
+		this.transform.position = this.transform.position + new Vector3(0f, -0.01f, 0f);
 	}
 }
