@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PooStain : MonoBehaviour {
@@ -17,6 +17,10 @@ public class PooStain : MonoBehaviour {
 		this.transform.position = this.transform.position + new Vector3(0.001f, 0f, 0f);
 		//derpderk
 		this.transform.position = this.transform.position + new Vector3(0f, -0.01f, 0f);
+	}
+
+	private void test2() {
+
 	}
 
 	private void test3() {
