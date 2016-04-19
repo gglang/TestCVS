@@ -18,4 +18,8 @@ public class PooStain : MonoBehaviour {
 		//derpderk
 		this.transform.position = this.transform.position + new Vector3(0f, -0.01f, 0f);
 	}
+
+	private void test1() {
+
+	}
 }
